@@ -6,8 +6,6 @@ const totalValue = 10;
 
 let totalSum = 823 + 7482 + 54156 + 516 + 546 + 98 + 7491 + 3541 + 8423 + 1561;
 
-console.log(totalSum);
-
 const average = totalSum / totalValue;
 
 console.log(average);
@@ -18,108 +16,68 @@ let x = 823;
 
 let y = ( x - average)**2;
 
-console.log(y);
-
-const vOne = totalSum * y / totalValue;
-
-console.log(vOne);
 
 // To calculate for Variance Two //
 
-x = 7482;
+let a = 7482;
 
-y = ( x - average)**2;
-
-console.log(y);
-
-const vTwo = totalSum * y / totalValue;
-console.log(vTwo);
+let b = ( a - average)**2;
 
 // To calculate for the 3rd variance//
 
+let c  = 54156;
 
-x = 54156;
-
-y = ( x - average)**2;
-
-console.log(y);
-
-const vThree = totalSum * y / totalValue;
-console.log(vThree);
+let d  = ( c - average)**2;
 
 // To the fourth Var. //
 
-x = 516;
+let e = 516;
 
-y = ( x - average)**2;
+let f = ( e - average)**2;
 
-console.log(y);
-
-const vFour = totalSum * y / totalValue;
-console.log(vFour);
 
 // To the Five Var. //
 
-x = 546;
+let g = 546;
 
-y = ( x - average)**2;
-
-console.log(y);
-
-const vFive = totalSum * y / totalValue;
-console.log(vFive);
+let h  = ( g - average)**2;
 
 // To the sixth Var. //
 
-x = 98;
+let i = 98;
 
-y = ( x - average)**2;
-
-console.log(y);
-
-const vSix = totalSum * y / totalValue;
-console.log(vSix);
+let j = ( i - average)**2;
 
 // To the seventh Var.//
 
-x = 7491;
+let k = 7491;
 
-y = ( x - average)**2;
-
-console.log(y);
-
-const vSeven = totalSum * y / totalValue;
-console.log(vSeven);
+let l = ( k  - average)**2;
 
 // To the eighth Var.//
 
-x = 3541;
+let m  = 3541;
 
-y = ( x - average)**2;
-
-console.log(y);
-
-const vEight = totalSum * y / totalValue;
-console.log(vEight);
+let n  = ( m- average)**2;
 
 // To the ninth Var.//
 
-x = 8423;
+let o = 8423;
 
-y = ( x - average)**2;
-
-console.log(y);
-
-const vNine = totalSum * y / totalValue;
-console.log(vNine);
+let p  = ( o - average)**2;
 
 // To the tenth Var.//
 
-x = 1561;
+let q  = 1561;
 
-y = ( x - average)**2;
+let r = ( q - average)**2;
 
-console.log(y);
+// To calculate for the variance of the given values//
 
-const vTen = totalSum * y / totalValue;
-console.log(vTen);
+const sumV = (y + b + d + f + h + j + l + n + p + r);
+
+const variance = sumV / totalValue;
+
+console.log(variance);
+
+
